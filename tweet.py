@@ -1,5 +1,4 @@
 import tweepy
-import time
 import json
 import operator
 import csv
@@ -10,9 +9,7 @@ from more_itertools import unique_everseen
 
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-# from elasticsearch import Elasticsearch
-# from elasticsearch_dsl import connections
-# connections.create_connection(hosts=['localhost'],timeout=20)
+
 
 consumer_key = "DSaMQVLUbCMCNACL9cNGPBFhL"
 consumer_secret = "NKdMDnPfdxO99G0smWtA8GHBrAJHnP6DVoikP0UFyiloSKkgEP"
@@ -52,7 +49,6 @@ def get_tweets(query):
     return tweets
 
 
-# tw = get_tweets("#HanSolo")
 
 
 queries = ["#HanSolo -filter:retweets lang:en", "\"Nova Scotia\" -filter:retweets lang:en",
@@ -70,40 +66,9 @@ with open('tweet.csv', 'w') as outfile:
                              (tweet.user.screen_name),
                              tweet.created_at,
                              (tweet.text.encode("utf-8"))])
-#
-# '''
-# Code to clean the tweets for analysis
-# '''
-#
-# df = pd.read_csv('tweet.csv')
-#
-# df_clean = df.drop_duplicates(subset=['text'])
-#
-# df_clean.to_csv('tweet.csv')
-# df.update(df_clean)
-# lists = []
-# for index, row in df_clean.iterrows():
-#     '''Code to remove Url, RTs and # tags were inspired from:
-#     1. https://stackoverflow.com/a/8377440/3966666
-#     2. https://knowledge.safe.com/questions/29604/regex-to-extract-url-from-tweet.html
-#     '''
-#
-#     text = row['text']
-#     text = re.sub("http[a-zA-Z]?:\/\/?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?", '',text).strip()
-#     text = re.sub('RT @[\w_]+:', '', text)
-#     text = re.sub('(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)"', '', text)
-#     lists.append(text)
-#
-#
-# print(lists)
-#
-# for index, row in df_clean.iterrows():
-#
-#     row['text'] = lists[index]
-#
-#
-# df.update(df_clean)
-# df.to_csv('clean_tweet.csv')
+
+
+
 lists = []
 with open('clean_tweet.csv', 'w') as outfile:
         writer = csv.writer(outfile)
@@ -155,9 +120,7 @@ neg = []
 neu = []
 for sentence in lists:
     vs = analyzer.polarity_scores(sentence)
-    # print(" {:-<65} {} ".format(sentence, str(vs)))
     sentimentList.append(max(vs.items(), key=operator.itemgetter(1))[0])
-    # print (max(vs.items(), key=operator.itemgetter(1))[0])
     pos.append(vs['pos'])
     neg.append(vs['neg'])
     neu.append(vs['neu'])
