@@ -21,4 +21,5 @@ Sentiment Analysis of Tweets Using ETL process and Elastic Search
 </br>
 ### 2. Twitter Tweet Extraction
 
-We are using 
+We are using [tweepy](https://github.com/tweepy/tweepy) to run a query and extract tweet into csv. Further, we cleaned the tweets and again created a new csv with nothing but pure texts. To clean the tweets we are making use of various regex and also we are encoding the tweets to because users were adding different emojis in their tweets.
+
