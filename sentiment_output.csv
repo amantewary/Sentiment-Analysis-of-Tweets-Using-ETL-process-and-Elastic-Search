@@ -1,4 +1,7 @@
-id,user,created_at,text,pos,neg,neu
+id,user,created_at,text,positive,negative,neutral
+1004367181218566148,Rick_Olie_Quote,2018-06-06 14:19:30,Shield generators been hit ricolie ricoliequotes starwars starwarsquotes phantommenace episode1,0.0,0.0,1.0
+1004364897390678016,FrankAKadar,2018-06-06 14:10:26,3 days left Check out SOLO HanSolo StarWars Topps 2018 Artist Proof sketchcard by Frank kadar,0.0,0.0,1.0
+1004362672534536192,sirtizzy09,2018-06-06 14:01:35,LostFootage from seein HanSolo,0.0,0.0,1.0
 1004349905786343424,todo_tronky,2018-06-06 13:10:52,HanSolo coming soon MillenniumFalcon,0.0,0.0,1.0
 1004348968728395776,WednesdayComix,2018-06-06 13:07:08,JusticeLeague ThundercatsRoarHanSolo A StarWars StorySheRa Princesses of PowerTheLastJediTeenTitans G,0.0,0.0,1.0
 1004344325227020288,TMAN1138pm,2018-06-06 12:48:41, Heres the problem HarrisonFord is HanSolo And going back to the first movie in 1977 HarrisonFor,0.0,0.153,0.847
@@ -11,26 +14,28 @@ id,user,created_at,text,pos,neg,neu
 1004328491305881600,BADBOYBROM,2018-06-06 11:45:46,Saw HanSolo last night Loved it So why has it flopped lastjedi backlash A protest to Lucasfilm and Kathleen,0.178,0.091,0.731
 1004319744093192192,parcelforce,2018-06-06 11:11:01,Win a LEGO Millennium Falcon Recreate your favourite HanSolo scene using any materials inside a cardboard box,0.213,0.0,0.787
 1004318293182820352,dkbooks,2018-06-06 11:05:15,Calm collected welldressed and spins a mean story Check out 7 essential Lando facts and enjoy ,0.314,0.0,0.686
-1004317925874991104,cg_curtis,2018-06-06 11:03:47,Im now downloading yesterdays  SmackDownLIVE since I didt see it because WWE doesnt repeat SmackDown like,0.0,0.131,0.869
-1004313234852208640,RBComiCast,2018-06-06 10:45:09,NEW EPISODE all you scruffy nerf herders Were giving our review for SOLO amp discussing the galaxys fav scoundrel,0.241,0.0,0.759
-1004308826353491969,cg_curtis,2018-06-06 10:27:38,As well I saw  HanSolo movie amp again I got ask what happen to HarrisonFord As I thought this movie was,0.11,0.0,0.89
-1004361971582545920,ComicCanuck,2018-06-06 13:58:48,Im at Annapolis Royal Nova Scotia in Nova Scotia,0.0,0.0,1.0
-1004361374234013701,CanadaPropane,2018-06-06 13:56:26,The Hon   talking about the future of competitively priced lowemission propane in Nova Scotia,0.0,0.0,1.0
-1004361298623320064,deedeesoon,2018-06-06 13:56:08,I liked a  video  Dingle Park  Sir Stanford Flemming Park  2017  Halifax  Nova Scotia  Canada,0.189,0.0,0.811
-1004361122202505216,bigpicguy,2018-06-06 13:55:26,Whats Nova Scotia wine,0.0,0.0,1.0
-1004360657758769152,SeasideFM,2018-06-06 13:53:35,1059 SEASIDEFM News  Frost causes damage to Christmas Tree operations in Nova Scotia On Monday the province ex,0.0,0.158,0.842
-1004360382763368454,LawrieIngles,2018-06-06 13:52:30,Presidents Choice Memories of Dixie Chicken    Who knew David Partridge would retire to Nova Scotia so I could sta,0.0,0.0,1.0
-1004360261225066496,dogkisser,2018-06-06 13:52:01,I wish Nova Scotia still looked like this,0.51,0.0,0.49
-1004360204719411200,betsyeldon,2018-06-06 13:51:47,Concerns raised about Cogswell redevelopment prompt more public input,0.0,0.0,1.0
-1004360139841757184,CBCMorningLive,2018-06-06 13:51:32,If you enjoy the odd glass of Nova Scotia wine this story may leave you feeling crushed A late frost in the provi,0.168,0.225,0.607
-1004359206374387713,mrstopviolence,2018-06-06 13:47:49,This Sunday is Stop the Violence Day in Nova Scotia Bring your family and come walk with us as we raise violence a,0.0,0.354,0.646
-1004358564020879360,ONlandtrusts,2018-06-06 13:45:16,Migratory shorebirds and songbirds including the endangered piping plover receive a helping hand in Nova Scotia,0.293,0.0,0.707
-1004358495527948289,MatthewCook_Esq,2018-06-06 13:45:00,Late frost crushes hopes of Nova Scotia grape growers,0.22,0.228,0.551
-1004358489924407296,DLMcGyver,2018-06-06 13:44:58,Today I think about my uncle Len who was there on DDay with the North Nova Scotia Highlanders He made it across t,0.0,0.0,1.0
-1004358428125552640,ChebogueRiver,2018-06-06 13:44:43,Cape Breton pharmacy pulls homeopathic products from shelves  CBC News,0.0,0.0,1.0
-1004357905062096896,FieldsOpen,2018-06-06 13:42:39,Visit Nova Scotia s Provincial Parks and Beaches  via ,0.0,0.0,1.0
+1004368034579009536,JohnWHarris9,2018-06-06 14:22:54,Growing up in Nova Scotia this was never an issue All went to the same schools In High School there was a Relig,0.075,0.0,0.925
+1004367878626390016,Nova_Scotia_Job,2018-06-06 14:22:17,Grade P1 Teacher South Shore Regional School Board  SSRSB Pentz NS Grade P1 Teacher novascotia eluta,0.0,0.0,1.0
+1004367837815889920,KalinMitchelCTV,2018-06-06 14:22:07,Clearing has started in New Brunswick Will begin in PEI and Nova Scotia this afternoon and evening With clear ski,0.12,0.0,0.88
+1004367780362235904,MeNoCareYT,2018-06-06 14:21:53, Do a fan meetup in Nova Scotia,0.315,0.0,0.685
+1004367509397606400,MariaBoedeker,2018-06-06 14:20:49,Peggys Cove Nova Scotia,0.0,0.0,1.0
+1004367302257672192,Scottyplover,2018-06-06 14:19:59, If youre flight gets diverted to Nova Scotia stop in and say hiand put on a popup show Bring ,0.0,0.115,0.885
+1004366299688886272,SeasideFM,2018-06-06 14:16:00,1059 SEASIDEFM News  Late frost crushes hopes of Nova Scotia grape growers You can see the leaves are all wilt,0.118,0.122,0.759
+1004366133934190592,summedupcanada,2018-06-06 14:15:21,Late frost crushes hopes of Nova Scotia grape growers,0.22,0.228,0.551
+1004365481111949312,WildLupinMedia,2018-06-06 14:12:45,Meet your local brewers  Find out who is brewing your favorite craft beer  Sponsor local,0.176,0.0,0.824
+1004365409670385664,PBCPAO,2018-06-06 14:12:28,Presenting  the  International Property Tax Institute 2018MassAppraisalValuationSymposium,0.0,0.0,1.0
+1004365332314775555,eluta_jobs,2018-06-06 14:12:10,Counsellor 3 Team Lead Nova Scotia Government Sydney NS Competition  13844 Counsellor 3 Team L eluta,0.0,0.0,1.0
+1004364410817675264,CanGeographers,2018-06-06 14:08:30,In the fight to fill seats Nova Scotia universities try to stand out with Gen Z,0.0,0.157,0.843
+1004364129304489984,eluta_jobs,2018-06-06 14:07:23,Clerk 4 Senior Customer Service Representative Nova Scotia Government Truro Heights NS Competiti eluta,0.0,0.0,1.0
+1004364106248253440,dcollin62,2018-06-06 14:07:17,NSGEU calling for pause on supervision model after attack on guards,0.0,0.237,0.763
+1004363532673183744,chronicleherald,2018-06-06 14:05:01,Should there be comprehensive public consultation on changes to Nova Scotias electoral boundaries,0.143,0.0,0.857
+1004367404380680193,Jack_Frodo,2018-06-06 14:20:24,Hey  yall still got any of them free 10 upgrades My ass is ready to upgrade from 7 now,0.239,0.144,0.617
+1004366729139638273,azertymix,2018-06-06 14:17:43,FR     I think this picture isnt comming from sea of thieves xD,0.236,0.205,0.559
+1004365751925420033,ColtanEastman,2018-06-06 14:13:50,       US  ,0.0,0.0,1.0
+1004365505350815744,eopdev,2018-06-06 14:12:51,After reinstalling my  PC I reinstalled  but I keep seeing both Plex and Python 32 processes consumin,0.0,0.0,1.0
+1004364930005585920,joematthewsOKC,2018-06-06 14:10:34,Which strategy do you use for open source development on  10  Please explain why in the comments,0.126,0.0,0.874
+1004362993067421696,BrandonH_MSFT,2018-06-06 14:02:52,via  Four things you can do with Dells new Inspiron Gaming Desktop,0.0,0.0,1.0
 1004357645720084481,PO66132234,2018-06-06 13:41:37,Stop all advertising on    Your advertisements directly support  Samantha Bee amp her programmi,0.17,0.138,0.692
-1004357534780620802,joematthewsOKC,2018-06-06 13:41:11,Which strategy do you use for  development on  10,0.0,0.0,1.0
 1004357448159948801,HollandAlbright,2018-06-06 13:40:50,Windows operating at 100 disk with no programs open This happens every update lately You are doing something c,0.0,0.115,0.885
 1004356507851460608,LeeAmbrosius,2018-06-06 13:37:06,More possible signs of the Mythical  based aka Surface phone or something else by Dell sign,0.0,0.0,1.0
 1004355149551239168,seanfagundes,2018-06-06 13:31:42,    Do you people not understand the term Professional Stop reinstalling fucking,0.0,0.18,0.82
@@ -39,36 +44,34 @@ id,user,created_at,text,pos,neg,neu
 1004352215094628353,ProftranDotCom,2018-06-06 13:20:02,total failure  do you know how long a  10 update takes Hours You are insane unless you hav,0.0,0.286,0.714
 1004349834743238656,MARCIZSALTY,2018-06-06 13:10:35,    Just turn updates off lol,0.412,0.0,0.588
 1004347917430214658,DigitalTrends,2018-06-06 13:02:58,TSA hopes  10 upgrades will keep its systems safe for travelers,0.388,0.0,0.612
-1004347253572632576,tonyvca,2018-06-06 13:00:19,  C JS FFrontend    Web         CDN         Core hosted on,0.0,0.0,1.0
-1004346050482786305,tonyvca,2018-06-06 12:55:32,           t,0.0,0.0,0.0
-1004342991849435136,tkarakashian,2018-06-06 12:43:23, Mmmmno thanks  I already made the suggestion in the manner that was most convenient to me  I dont ne,0.153,0.0,0.847
-1004342627020386305,TechGenYZ,2018-06-06 12:41:56,Microsoft announces Windows10 IoTCore Services a paid version of IoT Core   ,0.0,0.0,1.0
-1004338575087812608,CIJ__,2018-06-06 12:25:50,I hate  update,0.0,0.787,0.213
+1004367560190627842,socialstocksnow,2018-06-06 14:21:01,Now Dedicated The server service from Google  nytimes reutersbloomberg thestreet,0.25,0.0,0.75
+1004365835471872001,TakebkUS,2018-06-06 14:14:10,Cancel CNNs FCC license No way they meet any kind of FCC standardMAGA KAG CancelCNNFCCLicenseTrump,0.0,0.244,0.756
+1004365389919408130,mstrof6furlongs,2018-06-06 14:12:23,  V Jarretts family ties all Communists amp Obama amp her are Muslims despite what Obama says His,0.0,0.0,1.0
+1004364280991485953,keithdickens,2018-06-06 14:07:59,Were you turned into a newt  realDonaldTrump DonaldTrump,0.0,0.0,1.0
+1004363792619360257,TakebkUS,2018-06-06 14:06:02,It has been a LOT longer than that for me The FCC should investigate the validity of their broadcast license,0.0,0.0,1.0
+1004363701233700864,MakalapaGate,2018-06-06 14:05:41, Yeah theres the occasionally successful style employed by Lucifer and emulated by Don the Con And then ther,0.263,0.0,0.737
 1004361942159515648,Domonic88699368,2018-06-06 13:58:41,Hey evangelicals that support realDonaldTrump here is why your muslimban is bs an so wrong stated by one of you,0.109,0.162,0.729
 1004360377600217088,SonPlaces,2018-06-06 13:52:28,realDonaldTrump just this      your welcome  realDonaldTrump hank,0.333,0.0,0.667
 1004360352908357632,mstrof6furlongs,2018-06-06 13:52:22, If someone is paying you amp you are required to provide no meaningful resultsyou would extort as long as,0.107,0.102,0.791
 1004359805912469504,TakebkUS,2018-06-06 13:50:12,Yes he does Bring Comey down and the rest of his gang tooMAGA KAG Trump QAnon VoteRed2018,0.144,0.0,0.856
 1004358061446909953,RealMuddDog,2018-06-06 13:43:16,   realDonaldTrump conservatives won hands down sorry youre crying on a Wednesday,0.245,0.291,0.464
-1004357341469466625,RealMuddDog,2018-06-06 13:40:24,  Troll this Yeah unfortunately everybody in between the bookends would have got screwed,0.124,0.315,0.562
-1004356957065576449,RealMuddDog,2018-06-06 13:38:53,   That is awesome troll bait good thing we have the Electoral College or New York a,0.35,0.0,0.65
-1004356418944847872,TakebkUS,2018-06-06 13:36:44,Their must be some FCC standard for allowing someone to have a broadcast license Cancel the one CNN has,0.0,0.105,0.895
-1004355343047110656,SonPlaces,2018-06-06 13:32:28,realDonaldTrump          just this     your welcomerealDonaldTrump,0.0,0.0,1.0
-1004355002394083328,TakebkUS,2018-06-06 13:31:07,This is awesome Get that nut job Maxine out of there MAGAMAGA KAG Trump QAnon VoteRed2018,0.215,0.0,0.785
-1004361931837362176,StoneacreMotors,2018-06-06 13:58:39,Theres big news for motorists using ApplePlay More details    iOS12,0.0,0.0,1.0
-1004361773586288640,simpletechman,2018-06-06 13:58:01,FaceID in iOS12 can now recognize two different people  TechNews AppleNews WWDC2018,0.0,0.0,1.0
-1004361546988834817,Resourcifitech,2018-06-06 13:57:07,Apple has introduced optimizations for all devices and iOS 12 will work on all iPhones and iPads that are able to,0.087,0.0,0.913
-1004361323327709184,8020Ltd,2018-06-06 13:56:14,A closer look at the new FaceTime feature for iOS12 from ,0.0,0.0,1.0
-1004361322312716288,NoShhhPodcast,2018-06-06 13:56:14,Listen to Ep 43  Alice does Laundry by No Shhh Sherlock Podcast np on SoundCloud PodsInColor love logic debt,0.251,0.179,0.57
-1004360787673124864,JasonTselentis,2018-06-06 13:54:06, does iOS12 presently bring visual voicemail out of beta or at least to a wider audience WWDC18 WWDC2018,0.0,0.0,1.0
-1004360560409038849,JoeOreos,2018-06-06 13:53:12, is taking a stand when it comes to data privacy iOS 12 will now limit social media sites like  on,0.122,0.0,0.878
-1004358659768504320,NexusEngage,2018-06-06 13:45:39,You know the team love Apple From design to interface and how you can use the range NexusEngage loves APPLE So,0.294,0.0,0.706
-1004358481929912326,GeekInfoNow,2018-06-06 13:44:56,I love the best new iPhone feature in iOS12 but Android is still better,0.475,0.0,0.525
-1004357245147209728,jousselpm,2018-06-06 13:40:01,Only cool thing about iOS 12 is group FaceTime other than that idc about the other features ios12,0.119,0.0,0.881
-1004355677194801152,jamie_shaw,2018-06-06 13:33:48,Does SiriShortcuts replace HomeKit automation in iOS12 It should ,0.0,0.0,1.0
-1004355651005534209,tech2eets,2018-06-06 13:33:41, s LiveListen accessibility feature in iOS12 lets you use your iPhone as microphone and your AirPods as,0.0,0.0,1.0
-1004355006349258753,FacelessTechie,2018-06-06 13:31:08,Let the Guess Who games begin with MeMojiiOS12,0.0,0.0,1.0
-1004354855643820032,GadgetHax,2018-06-06 13:30:32,Not digging how buggy the new iOS12 beta is on your iPhone You can easily downgrade back to iOS 114,0.112,0.0,0.888
-1004354462801154048,joannavos,2018-06-06 13:28:58,I reckon Ive found an enterprise use case for iOS12 Memojis after all   NoHairbrushNoProblem GroupFaceTime,0.0,0.0,1.0
+1004367332595073024,urjanet,2018-06-06 14:20:06,Its no secret that were addicted to our phones iOS12 even lets you monitor your use to curb the addiction But,0.0,0.074,0.926
+1004367204454985728,dashlane,2018-06-06 14:19:36,iPhone users youll want to read thisHuge news from Apple at this weeks WWDC18 for everyone who loves passwor,0.227,0.0,0.773
+1004367107239231488,LikelyFad,2018-06-06 14:19:13,Here Are all the New Features in iOS12 you Should Know Aboutios WWDC WWDC18 iPhoneX,0.0,0.0,1.0
+1004366900246253568,AndrewGrill,2018-06-06 14:18:23,Another iOS12 fun fact there are new FaceID settings to allow an alternative appearance  see the bottom of th,0.234,0.0,0.766
+1004366876678340608,WebWizSolutions,2018-06-06 14:18:18,iOS12 Makes Your iPhone More Secure With Easier Password Creation and Storage,0.466,0.0,0.534
+1004366585816014849,gmesqu,2018-06-06 14:17:08,Im surprised how well iOS12 runs on my 5S ,0.364,0.0,0.636
+1004366324586328065,bady_qb,2018-06-06 14:16:06,now my safari is gone on iOS12  did setting reset amp app layout reset and its not working,0.0,0.0,1.0
+1004366159813267456,rlsupplies,2018-06-06 14:15:27,iOS12 The best features of Apples new software  via ,0.344,0.0,0.656
+1004365821567750144,iSpeedtestOS_,2018-06-06 14:14:06,Well probably see new iOS betas next week But which one will be firstiOS12 iOS12DevBeta2 iOS11 iOS1141 iOS1141DevBeta2,0.084,0.0,0.916
+1004365814722650112,marinosoftware,2018-06-06 14:14:05,Day 2 We tell you about the new Siri shortcuts that were announced at WWDC18 yesterday  we just couldnt wait,0.0,0.0,1.0
+1004365734934392838,TEkSTA7,2018-06-06 14:13:46,memoji test on ios12 virtual me is kicking,0.0,0.0,1.0
+1004365648670216192,AndreaTriani,2018-06-06 14:13:25,Something that maybe someone has understimated during the keynote and that I really appreciate is the attention t,0.166,0.0,0.834
+1004365489865310208,hiteshverma1987,2018-06-06 14:12:47,At last some fine features are now on ios12 Groupfacetime Groupnotifications siri and the best part Animoji,0.286,0.0,0.714
+1004365438636122112,3rdrockhome,2018-06-06 14:12:35,7 small iOS12 features that will make a huge difference,0.247,0.0,0.753
+1004365282566164481,CameronSpann,2018-06-06 14:11:58,The most baffling addition to ios12 is the QR code shortcut to Control Center Do people still use QR codes ,0.0,0.0,1.0
+1004366331506876416,NateSwanner,2018-06-06 14:16:08,Gentle reminder that Develop is now its own MAJOR category in the new Mac App StoreI love it WWDC WWDC18,0.283,0.0,0.717
+1004366171733446656,Neel_Lawy,2018-06-06 14:15:30,Apple strips Facebook amp Twitter integration from macOS Mojave,0.0,0.0,1.0
 1004360768987455488,cybersecboardrm,2018-06-06 13:54:02,All New Privacy and Security Features Coming in macOS 1014 Mojave Privacy CyberSecurity infosec macOS mojave,0.138,0.0,0.862
 1004358329924063232,pratikindia,2018-06-06 13:44:20,Apple macOS Mojave supported MacsMacBook Early 2015 or laterMacBook Air Mid2012 or laterMacBook Pro Mi,0.141,0.0,0.859
 1004356581411250176,scottro26,2018-06-06 13:37:23,Here is the latest from Apple Mojave,0.0,0.0,1.0
@@ -80,20 +83,33 @@ id,user,created_at,text,pos,neg,neu
 1004342885917945856,SAGEMartyB,2018-06-06 12:42:58,New Data Privacy Features in iOS 12 and macOS Mojave Take Aim at Facebook apple ios12 macos mojave facebook,0.0,0.0,1.0
 1004339761560129536,Neel_Lawy,2018-06-06 12:30:33,Inside Apples move to ramp up security amp privacy in iOS12 amp macOS Mojave wwdc18,0.146,0.0,0.854
 1004339711052271616,GetReceptioJobs,2018-06-06 12:30:21,Loader OperatorLaborer  Mojave  Mojave  CA  Get Receptionist Jobs,0.0,0.0,1.0
-1004335874006503425,giancarlodeleon,2018-06-06 12:15:06,Mojave will finally bring dark mode to Sketch I am ecstatic I also appreciate the years of focus and commitment,0.364,0.0,0.636
-1004334986273554435,Tweets4mKarthik,2018-06-06 12:11:35,Here you can download macOS Mojave 5k wallpaperDay Night ,0.0,0.0,1.0
-1004361898719105024,miss_molotov,2018-06-06 13:58:31,If you plan on watching E3 stuff on twitch on your PS4 you might need to do an update before you can use it  If,0.0,0.0,1.0
-1004361148089667584,_____AM________,2018-06-06 13:55:32,Looking forward to Battlefield V gameplay this weekendBattlefield1 BattlefieldV E3 SquadGoals MVP PS4share,0.0,0.191,0.809
-1004361088996175872,JGriffiths993,2018-06-06 13:55:18,Microsoft have this years E3 to convince me to keep my Xbox Wow me  with big exclusives,0.279,0.0,0.721
-1004360694853263360,flouridememe,2018-06-06 13:53:44,Who else is excited for e3,0.324,0.0,0.676
-1004360577295187968,EditPhotoGamer,2018-06-06 13:53:16,A little over an hour till the first announcement Come with it  E3 E32018,0.0,0.0,1.0
-1004360159345414145,_____AM________,2018-06-06 13:51:36,Battlefields snipering is SO satisfying Battlefield1 Battlefield PlayStation VideoGames E3 Sniping PS4share,0.249,0.282,0.469
-1004359693362483200,AmeanSunflower,2018-06-06 13:49:45,Man fallout is killing it with only 5 days till E3 who do you think will steal the show this year  xbox ps4,0.0,0.275,0.725
-1004359682918617089,gamecuddle,2018-06-06 13:49:43,The 1st Sony E32018 Countdown  Announcemt is a little over an hour away Heres where you can watch it live E3,0.0,0.0,1.0
-1004359517570674688,GunnarJohansson,2018-06-06 13:49:03,Hello fast food Five more hours until touchdown in LA E3 E32018 XboxFanFest la,0.0,0.0,1.0
-1004359438151704578,GAMEMansfield,2018-06-06 13:48:44,Just a few things to look forward to at sonys E3 conference this year,0.0,0.0,1.0
-1004359080243232768,karakabakov_,2018-06-06 13:47:19, Day 593 since last Battlefield game need them leaks e3 BattlefieldV,0.0,0.206,0.794
-1004358523210194945,KIReizaNinja,2018-06-06 13:45:06,I expect Hideo to release a DeathStranding teaser demo in the style of PT and then when you find the hidd,0.0,0.1,0.9
-1004358469477175296,IamStephenDaily,2018-06-06 13:44:53,Halo Infinity Getting Announced at E3 2018,0.0,0.0,1.0
-1004358434622529538,JuliaMoticouch,2018-06-06 13:44:45,Im gonna be so madsad if Nintendo doesnt announce an AnimalCrossing game for the Switch at E3 Please Ive b,0.113,0.0,0.887
-1004357724799291392,MohithRM1,2018-06-06 13:41:56,Well you guys have been my favourite developer since the release of Forza Horizon 2 And I just cant wait to see w,0.1,0.0,0.9
+1004367900726067205,alxwlfe,2018-06-06 14:22:22,My E32018 dreamsThe Order SequelHorizon SequelBatman Beyond GameMetroid Prime 4 TrailerDeath Strandin,0.0,0.0,1.0
+1004367851501899776,Drizzle084,2018-06-06 14:22:10, any particular channel on Mixer to watch the E3 briefing Im getting a whole bunch of food too because its my Superbowl,0.0,0.0,1.0
+1004367538996895744,Legundo,2018-06-06 14:20:56,Four days until our E3 coverage begins on the channelJoin me   and  for a full w,0.0,0.0,1.0
+1004367388723286016,PressARepeatdly,2018-06-06 14:20:20,ICYMI Justin and Chris deem themselves the Gods of E3 and they go HOG WILD with what they would unveil if they we,0.0,0.0,1.0
+1004367159332614144,hundredcrowns,2018-06-06 14:19:25,Skate 4 at e3 Im calling it,0.0,0.0,1.0
+1004366802925883392,XandiarrXDR,2018-06-06 14:18:00,Our E3 2018 PreShow Predictions Podcast is here   gaming videogames E32018 E3 podcast,0.0,0.0,1.0
+1004366745208086529,hardcorevr,2018-06-06 14:17:46, There is a rumorleak going around that the RE 2 remake will be shown at E3 AND will have VRIf,0.0,0.0,1.0
+1004366478844411904,GustavoCantuF,2018-06-06 14:16:43,Oh boi Here I go killing againE3 SmashBrosSwitch,0.0,0.423,0.577
+1004366125533220866,KultureShocked,2018-06-06 14:15:19, comes early for  fans  ps4 e3,0.0,0.0,1.0
+1004366025398185984,xGetGaming,2018-06-06 14:14:55,One Year Later Did Sony Keep Its E3 2017 Promises,0.224,0.0,0.776
+1004365853687795712,davidrushe,2018-06-06 14:14:14,i think this will be platinum no 28 ps4share platinum trophy infamous fetch suckerpunch ps4 sony e3,0.0,0.128,0.872
+1004365797442113537,JohnVFitness,2018-06-06 14:14:00,Ive been waiting 12 years for KH3 For the love of Christ please give us a definite release date this E3,0.336,0.0,0.664
+1004365706811641862,mariomedz1527,2018-06-06 14:13:39,Reggie I dont feel so goodMy Body is Reggie nintendo E3 SuperSmashBros NintendoSwitch reggie InfinityWar,0.0,0.0,1.0
+1004365177167470592,4PlayerPodcast,2018-06-06 14:11:33,Our latest episode of 4Player Plus is now available to everyone  and  joined  t,0.0,0.0,1.0
+1004364976629469184,BreakABone,2018-06-06 14:10:45,Sony is learning what Nintendo learned years agoe3 doesnt need to be confined to a single dayYou can control th,0.0,0.0,1.0
+1004367746652688387,TofuBeef,2018-06-06 14:21:45,Gen1 is so old now that your Pokemon have most likely died from old age by now pokemon pokemon1997 PokemonLetsGo,0.0,0.17,0.83
+1004367606298660864,BestGamezUp,2018-06-06 14:21:12,The Twitter bird is just a baby Articuno pokemon,0.0,0.0,1.0
+1004367375498665985,Odeltum,2018-06-06 14:20:17,I posted these on Tumblr but I made some Pridekeballs Because who doesnt like Pokemon This is part 2who know,0.0,0.136,0.864
+1004367236910538753,Odeltum,2018-06-06 14:19:44,I posted these on Tumblr but I made some Pridekeballs Because who doesnt like Pokemon This is part 1who know,0.0,0.136,0.864
+1004367177397358593,sonupsales,2018-06-06 14:19:29,Pokemon Team Rocket TCG 11 Card Booster Pack 1999 2000 Original Unopened  eBay pokemon teamrocket pokemongo,0.133,0.0,0.867
+1004366052099100673,GoingBandit,2018-06-06 14:15:01,May or may not be streaming tonight well see how work goes Im about 35 hours away from home today XD Feeling,0.3,0.0,0.7
+1004364868244377600,b1ake_b0t,2018-06-06 14:10:19,WHOMST THE FUCK is small side masc clothes me n my pokeymans pokemon life  cakejoon im in 4 hours and WorldEggDay,0.0,0.19,0.81
+1004364755157553155,PrincesStarLady,2018-06-06 14:09:52,My new video is up You can watch it here smallyoutuber SmallYouTuberArmy,0.0,0.0,1.0
+1004364646634147840,thiagosketch,2018-06-06 14:09:26,This design has so much to it and I love itIts based on the chinese vampires Jiangshi but with a food theme m,0.12,0.0,0.88
+1004364393793118208,Lucitie,2018-06-06 14:08:26,Live NOW on  for the first stream of the week Playing PokemonQuest on the Switch,0.114,0.0,0.886
+1004364034991448066,themegatravis,2018-06-06 14:07:00,I got a Shiny Cyndaquil It only took 31 eggs Pokemon USUM,0.0,0.0,1.0
+1004362658718584837,HiJello64,2018-06-06 14:01:32,Collecting my fifth badge and catching the fourth Pokmon on my team Pokemon,0.0,0.0,1.0
+1004362564179021825,KnowTechie,2018-06-06 14:01:10,Need your Pokmon fix Three new entries have been announced with one available now ,0.0,0.0,1.0
+1004362508570804224,kwi_ind,2018-06-06 14:00:56,NEW POKEMON BOT work 100 PokeCoin V0302 FREE FOR IOS amp ANDROID CLICK HERE,0.237,0.0,0.763
+1004362177594249216,rustyumusty,2018-06-06 13:59:37,I wanna be the very best That noone ever was dum dum dum To catch them is my way of testto train them is my,0.163,0.0,0.837

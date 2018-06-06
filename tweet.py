@@ -57,7 +57,7 @@ def get_tweets(query):
 
 queries = ["#HanSolo -filter:retweets lang:en", "\"Nova Scotia\" -filter:retweets lang:en",
            "@Windows -filter:retweets lang:en", "#realDonaldTrump -filter:retweets lang:en",
-           "#iOS12 -filter:retweets lang:en", "#Mojave -filter:retweets lang:en", "#E3 -filter:retweets lang:en"]
+           "#iOS12 -filter:retweets lang:en", "#Mojave -filter:retweets lang:en", "#E3 -filter:retweets lang:en", "#Pokemon -filter:retweets lang:en"]
 
 
 with open('tweet.csv', 'w') as outfile:
@@ -174,7 +174,7 @@ with open('sentiment_output.csv', 'w') as f2:
         next(infile)
         reader = csv.reader(infile)
         writer = csv.writer(f2)
-        writer.writerow(['id', 'user', 'created_at', 'text', 'pos', 'neg', 'neu'])
+        writer.writerow(['id', 'user', 'created_at', 'text', 'positive', 'negative', 'neutral'])
 
         i=0
         for rows in reader:
