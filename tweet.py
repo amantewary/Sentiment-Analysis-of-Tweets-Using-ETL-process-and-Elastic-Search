@@ -150,11 +150,20 @@ analyzer = SentimentIntensityAnalyzer()
 
 vs = {}
 sentimentList = []
+pos = []
+neg = []
+neu = []
 for sentence in lists:
     vs = analyzer.polarity_scores(sentence)
     # print(" {:-<65} {} ".format(sentence, str(vs)))
     sentimentList.append(max(vs.items(), key=operator.itemgetter(1))[0])
-    print (max(vs.items(), key=operator.itemgetter(1))[0])
+    # print (max(vs.items(), key=operator.itemgetter(1))[0])
+    pos.append(vs['pos'])
+    neg.append(vs['neg'])
+    neu.append(vs['neu'])
+
+
+
 
 
 
@@ -165,11 +174,13 @@ with open('sentiment_output.csv', 'w') as f2:
         next(infile)
         reader = csv.reader(infile)
         writer = csv.writer(f2)
-        writer.writerow(['id', 'user', 'created_at', 'text', 'sentiment'])
+        writer.writerow(['id', 'user', 'created_at', 'text', 'pos', 'neg', 'neu'])
 
         i=0
         for rows in reader:
-            rows.append(sentimentList[i])
+            rows.append(pos[i])
+            rows.append(neg[i])
+            rows.append(neu[i])
             writer.writerow(rows)
             i += 1
 
