@@ -1,5 +1,7 @@
 # Sentiment Analysis of Tweets Using ETL process and Elastic Search
 
+</br>
+
 
 ### Table of Contents
 
@@ -9,7 +11,7 @@
 #### [3. Sentiment Analysis](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#3-sentiment-analysis-1)
 #### [4. Loading Data into Elastic Search](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#4-loading-data-into-elastic-search-1)
 #### [5. ETL as a batch process (BONUS)]()
-#### [6. License](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#6-license-1)
+#### [6. License](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#6-licence)
 
 </br>
 
@@ -43,6 +45,9 @@ We are removing the following things from the tweets:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Raw tweets before cleaning**
 
 
+</br>
+
+
 ![ScreenShot of tweets after cleaning](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-06%20at%201.30.41%20PM.png?alt=media&token=b65d7962-7345-48a6-ae23-8f8e440ead52)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Tweets after cleaning**
@@ -70,6 +75,8 @@ After performing the sentiment analysis, we are storing the output in a file "se
 * The license of vaderSentiment
 
 </br> 
+
+
 >The MIT License (MIT)
 
 >Copyright (c) 2016 C.J. Hutto
