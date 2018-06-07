@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+echo "Analyzing tweets from..."
+echo "TRENDS:"
+echo "  #HanSolo"
+echo "  #realDonaldTrump"
+echo "  #iOS12"
+echo "  #Mojave"
+echo "  #E3"
+echo "  #Pokemon"
+echo "LOCATION:"
+echo "  Nova Scotia"
+echo "USER:"
+echo "  @windows"
+echo
+python3 extract.py &
+python3 transform.py &
+python3 load.py
+echo
+echo "FINISHED"
+echo
+echo "VERIFYING LOAD TO ELASTICSEARCH..."
+wait
+echo
+python3 verify.py
+echo
+echo
+echo "RESULT LOCATIONS"
+echo "EXTRACTED TWEETS: tweet.csv"
+echo "CLEAN TWEETS: clean_tweet.csv"
+echo "SENTIMENT ANALYSIS OUTPUT: sentiment_output.csv"
+
