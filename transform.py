@@ -113,4 +113,15 @@ with open('sentiment_output.csv', 'w') as f2:
             rows.append(max (pos[i],neg[i],neu[i]))
 
             writer.writerow(rows[3:])
+
+            if (sentimentList[i] == "pos"):
+                rows.append("Positive")
+            elif (sentimentList[i] == "neu"):
+                rows.append("Neutral")
+            else:
+                rows.append("Negative")
+
+            rows.append(max (pos[i],neg[i],neu[i]))
+
+            writer.writerow(rows[3:])
             i += 1
