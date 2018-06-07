@@ -45,9 +45,8 @@ To be able to run this program, you need to have the following things:
 
 1. To install python3 execute this command.
 
-    ``` shell
-    sudo apt-get install -y python3-pip
-        ```
+        sudo apt-get install -y python3-pip
+        
 2. Using pip you have to intall other libraries. To install tweepy execute this command.
 
         pip3 install tweepy
@@ -146,6 +145,7 @@ After performing the sentiment analysis, we are storing the output in a file "se
 
 **Screenshot of Sentiment Analysis**
 
+</br>
 
 ### 5. Loading Data Into Elasticsearch
 
@@ -154,12 +154,24 @@ After the sentiment analysis is completed, we are loading the output data stored
 
 ![Loading data into ElasticSearch](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-07%20at%201.49.27%20PM.png?alt=media&token=53328320-5b63-47b1-a441-6b353742cd61)
 
+**Loading data into ElasticSearch**
+
 </br>
 
 
 ### 6. ETL as a batch process (BONUS)
 
 To run all three processes of extracting data from twitter, performing sentiment analysis and loading output in Elastic Search, a shell script using Linux Shell commands is created (./tweet). It will be used to run all the three process in a single batch job with no user intervention required and that runs as a background process.
+
+
+![Shell script](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-07%20at%206.44.10%20PM.png?alt=media&token=ba224d98-7d42-4f0d-97c7-7c6ff9187eb7)
+
+**Shell Script**
+
+
+#### Output
+
+![Expected Output](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/WhatsApp%20Image%202018-06-07%20at%207.06.45%20PM.jpeg?alt=media&token=0bbe9652-172c-46c3-a972-6a7a73aa66f0)
 
 </br>
 
