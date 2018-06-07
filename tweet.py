@@ -122,9 +122,9 @@ for sentence in lists:
     vs = analyzer.polarity_scores(sentence)
     vs.popitem()
     sentimentList.append(max(vs.items(), key=operator.itemgetter(1))[0])
-    pos.append(vs['positive'])
-    neg.append(vs['negative'])
-    neu.append(vs['neutral'])
+    pos.append(vs['pos'])
+    neg.append(vs['neg'])
+    neu.append(vs['neu'])
 
 
 
@@ -143,7 +143,13 @@ with open('sentiment_output.csv', 'w') as f2:
         i=0
         for rows in reader:
 
-            rows.append(sentimentList[i])
+            if (sentimentList[i] == "pos"):
+                rows.append("Positive")
+            elif (sentimentList[i] == "neu"):
+                rows.append("Neutral")
+            else:
+                rows.append("Negative")
+
             rows.append(max (pos[i],neg[i],neu[i]))
 
             writer.writerow(rows[3:])
