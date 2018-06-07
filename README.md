@@ -41,6 +41,7 @@ We ran our query to find tweets from the following hashtags and usernames:
 * #Pokemon
 
 
+Following is the code by which we are cleaning the tweets.
 
 ![ScreenShot of tweet cleaning](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-06%20at%2012.00.50%20PM.png?alt=media&token=c794e58f-1a17-4417-be76-5c01d4c99e35)
 
@@ -83,7 +84,7 @@ For performing sentiment analysis we are using the csv file that has clean tweet
 
 After performing the sentiment analysis, we are storing the output in a file "sentiment_output.csv" which has three columns, "Positive", "Negative" and "Neutral", respectively. These three columns gives the score of how much positive, negative or neutral the tweet was.
 
-![Sentiment Analysis](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-06%20at%201.30.57%20PM.png?alt=media&token=c551c79a-bce2-4a5f-bdfb-2e08251d20da)
+![Sentiment Analysis](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-06%20at%2011.53.15%20PM.png?alt=media&token=5cfaa3a2-726d-474d-90ef-7f8b8950e447)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Screenshot of Sentiment Analysis**
