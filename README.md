@@ -90,6 +90,19 @@ After performing the sentiment analysis, we are storing the output in a file "se
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Screenshot of Sentiment Analysis**
 
 
+### 4. Loading Data Into Elasticsearch
+
+After the sentiment analysis is completed, we are loading the output data stored in “sentiment_output.csv” to Elasticsearch using Elasticsearch bulk helper function. The bulk function takes the instance of Elasticsearch and DictReader, index name (“tweets”)and document type(“sentiments”). In case the index already exists, it will delete the index and then will load the data.
+
+
+![Loading data into ElasticSearch](https://firebasestorage.googleapis.com/v0/b/assignment4-fc96b.appspot.com/o/Screen%20Shot%202018-06-07%20at%201.49.27%20PM.png?alt=media&token=53328320-5b63-47b1-a441-6b353742cd61)
+
+</br>
+
+
+### 5. ETL as a batch process (BONUS)
+
+To run all three processes of extracting data from twitter, performing sentiment analysis and loading output in Elastic Search, a shell script using Linux Shell commands is created (./tweet). It will be used to run all the three process in a single batch job with no user intervention required and that runs as a background process.
 
 </br>
 
