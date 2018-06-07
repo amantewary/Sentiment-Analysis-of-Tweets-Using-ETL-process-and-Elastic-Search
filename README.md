@@ -9,8 +9,8 @@
 #### [1. Task Description](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#1-task-description-1)
 #### [2. Twitter Tweet Extraction](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#2-twitter-tweet-extraction-1)
 #### [3. Sentiment Analysis](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#3-sentiment-analysis-1)
-#### [4. Loading Data into Elastic Search](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#4-loading-data-into-elastic-search-1)
-#### [5. ETL as a batch process (BONUS)]()
+#### [4. Loading Data into Elastic Search](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#4-loading-data-into-elasticsearch)
+#### [5. ETL as a batch process (BONUS)](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#5-etl-as-a-batch-process-bonus-1)
 #### [6. License](https://github.com/amantewary/Sentiment-Analysis-of-Tweets-Using-ETL-process-and-Elastic-Search#6-licence)
 
 </br>
