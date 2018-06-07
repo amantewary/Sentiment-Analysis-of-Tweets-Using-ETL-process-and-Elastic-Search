@@ -93,6 +93,13 @@ for sentence in lists:
     neg.append(vs['neg'])
     neu.append(vs['neu'])
 
+
+
+
+
+
+
+
 with open('sentiment_output.csv', 'w') as f2:
     with open('clean_tweet.csv', 'r') as infile:
         next(infile)
@@ -102,17 +109,6 @@ with open('sentiment_output.csv', 'w') as f2:
 
         i=0
         for rows in reader:
-
-            if (sentimentList[i] == "pos"):
-                rows.append("Positive")
-            elif (sentimentList[i] == "neu"):
-                rows.append("Neutral")
-            else:
-                rows.append("Negative")
-
-            rows.append(max (pos[i],neg[i],neu[i]))
-
-            writer.writerow(rows[3:])
 
             if (sentimentList[i] == "pos"):
                 rows.append("Positive")
