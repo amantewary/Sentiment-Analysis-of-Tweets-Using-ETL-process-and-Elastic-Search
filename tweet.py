@@ -21,23 +21,23 @@ auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
 
-def get_profile(screen_name):
-    api = tweepy.API(auth)
-    try:
-        user_profile = api.get_user(screen_name)
-        print(screen_name)
-    except tweepy.error.TweepError as e:
-        user_profile = json.loads(e.response.text)
-    return user_profile
-
-
-def get_trends(location_id):
-    api = tweepy.API(auth)
-    try:
-        trends = api.trends_place(location_id)
-    except tweepy.error.TweepError as e:
-        trends = json.loads(e.response.text)
-    return trends
+# def get_profile(screen_name):
+#     api = tweepy.API(auth)
+#     try:
+#         user_profile = api.get_user(screen_name)
+#         print(screen_name)
+#     except tweepy.error.TweepError as e:
+#         user_profile = json.loads(e.response.text)
+#     return user_profile
+#
+#
+# def get_trends(location_id):
+#     api = tweepy.API(auth)
+#     try:
+#         trends = api.trends_place(location_id)
+#     except tweepy.error.TweepError as e:
+#         trends = json.loads(e.response.text)
+#     return trends
 
 
 def get_tweets(query):
@@ -120,6 +120,8 @@ neg = []
 neu = []
 for sentence in lists:
     vs = analyzer.polarity_scores(sentence)
+    vs.popitem()
+    print (vs)
     sentimentList.append(max(vs.items(), key=operator.itemgetter(1))[0])
     pos.append(vs['pos'])
     neg.append(vs['neg'])
@@ -137,14 +139,18 @@ with open('sentiment_output.csv', 'w') as f2:
         next(infile)
         reader = csv.reader(infile)
         writer = csv.writer(f2)
-        writer.writerow(['id', 'user', 'created_at', 'text', 'positive', 'negative', 'neutral'])
+        writer.writerow(['text','pos','neg','neu', 'outcome', 'score'])
 
         i=0
         for rows in reader:
+
             rows.append(pos[i])
             rows.append(neg[i])
             rows.append(neu[i])
-            writer.writerow(rows)
+            rows.append(sentimentList[i])
+            rows.append(max (pos[i],neg[i],neu[i]))
+
+            writer.writerow(rows[3:])
             i += 1
 
 
